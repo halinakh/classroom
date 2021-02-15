@@ -39,6 +39,9 @@ services:
       - ./docker/mysql/data:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: classroom
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
     networks:
       - backend
 

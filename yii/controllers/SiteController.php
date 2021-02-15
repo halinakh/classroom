@@ -61,6 +61,8 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        Yii::$app->redis->set('is_loaded', 'true');
+
         return $this->render('index');
     }
 

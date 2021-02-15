@@ -43,6 +43,16 @@ $config = [
             ],
         ],
         'db' => $db,
+        'redis' => [
+            'class' => 'yii\redis\Connection',
+            'hostname' => 'redis',
+            'port' => 6379,
+            'database' => 0,
+        ],
+        'session' => [
+            'class' => 'yii\redis\Session',
+            // 'redis' => 'redis' // id of the connection application component
+        ],
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,
