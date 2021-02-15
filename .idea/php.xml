@@ -87,6 +87,7 @@
       <path value="$PROJECT_DIR$/yii/vendor/symfony/dom-crawler" />
       <path value="$PROJECT_DIR$/yii/vendor/symfony/event-dispatcher" />
       <path value="$PROJECT_DIR$/yii/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/yii/vendor/yiisoft/yii2-redis" />
     </include_path>
   </component>
 </project>
