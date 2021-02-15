@@ -51,7 +51,7 @@ $config = [
         ],
         'session' => [
             'class' => 'yii\redis\Session',
-            // 'redis' => 'redis' // id of the connection application component
+            'redis' => 'redis' // id of the connection application component
         ],
         /*
         'urlManager' => [
